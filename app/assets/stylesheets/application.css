@@ -1,0 +1,85 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+h1{
+  text-align: center;
+  color: white;
+}
+h2{
+  text-align: center;
+  color: white;
+}
+h3{
+  text-align: center;
+  color: #9abd70;
+}
+body{
+  background-color: #9370bd;
+}
+p{
+  text-align: center;
+  color: #9abd70;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 250px;
+}
+/* Add a silver background color to the top navigation */
+.topNav {
+  background-color: #696969;
+  overflow: hidden;
+  margin: auto;
+}
+
+/* Style the links inside the navigation bar */
+.topNav a {
+  float: left;
+  color: #9abd70;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topNav a:hover {
+  background-color: #9abd70;
+  color: #696969;
+}
+
+/* Add a color to the active/current link */
+.topNav .active {
+  background-color: #9370DB;
+  color: #C0C0C0;
+}
+.Blunts{
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.Joints{
+  text-align: right;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.Strains{
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+}
