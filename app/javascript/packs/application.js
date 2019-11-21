@@ -15,3 +15,4 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+// initialize an array for storing checked radio values
